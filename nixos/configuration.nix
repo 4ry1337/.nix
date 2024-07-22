@@ -8,6 +8,11 @@
     ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 14d";
+  };
 
   time.timeZone = "Asia/Qyzylorda";
 

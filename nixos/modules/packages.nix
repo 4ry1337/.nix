@@ -31,7 +31,7 @@
     vim
     neovim
     tmux
-    z-lua
+    zoxide
     eza
     ripgrep
     fzf

@@ -14,5 +14,6 @@
     init = {
       defaultBranch = "main";
     };
+  ghq.root = "/home/rakhat/Documents/Dev/";
   };
 }
