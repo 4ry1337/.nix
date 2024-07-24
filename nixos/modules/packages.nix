@@ -8,9 +8,6 @@
     wget
     vim
     neovim
-    tmux
-    docker
-    docker-compose
 
     # misc
     oh-my-posh
