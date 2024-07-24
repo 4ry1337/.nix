@@ -12,7 +12,9 @@
     # cheese      # photo booth
     # eog         # image viewer
     epiphany    # web browser
-    # gedit       # text editor gnome-text-editor simple-scan # document scanner
+    # gedit       # text editor
+    gnome-text-editor
+    simple-scan # document scanner
     # totem       # video player
     yelp        # help viewer
     evince      # document viewer
