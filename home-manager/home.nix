@@ -12,6 +12,7 @@ in
   };
 
   xdg.enable = true;
+
   xdg.configFile.nvim.source = mkOutOfStoreSymlink "/home/rakhat/.config/dotfiles/nvim";
 
   home.packages = with pkgs; [];
