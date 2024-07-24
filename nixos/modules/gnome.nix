@@ -56,4 +56,6 @@
     gnomeExtensions.spotify-tray
     zenity
   ];
+
+  programs.nano.enable = false;
 }

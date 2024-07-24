@@ -1,6 +1,6 @@
 { pkgs, ... }: {
+  programs.adb.enable = true;
   programs.nix-ld.enable = true;
-  programs.nano.enable = false;
   programs.xwayland.enable = true;
   programs.zsh.enable = true;
   programs.gnupg.agent = {
@@ -19,7 +19,7 @@
     users.rakhat = {
       isNormalUser = true;
       description = "rakhat";
-      extraGroups = [ "networkmanager" "wheel" "docker" "input" "libvirtd" ];
+      extraGroups = [ "networkmanager" "wheel" "kvm" "abdusers" "docker" "input" "libvirtd" ];
       packages = with pkgs; [];
     };
   };
